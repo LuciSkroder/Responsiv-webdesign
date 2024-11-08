@@ -29,10 +29,14 @@ header a {
 }
 
 nav {
-    background-color: black;
-    opacity: 0.5;
-    color: white;
+    position: absolute; /* Gør navbaren absolut i forhold til video-containeren */
+    top: 0;
+    left: 0;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent sort baggrund */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
 }
 
 nav ul {
@@ -40,12 +44,16 @@ nav ul {
 }
 
 .cover {
-    max-width: 100%;
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 100% af visningshøjden */
     overflow: hidden;
 }
 
 #bigphoto {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #menu-bar:checked ~ nav ul {
