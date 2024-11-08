@@ -11,6 +11,7 @@
     --accent: #AE944A;
     --contrast: #475133;
     --extra: #8F7858;
+    --shadow: #4f402c;
 }
 
 header {
@@ -56,6 +57,53 @@ nav ul {
 
 #menu-bar:checked ~ nav ul {
     display: block;
+}
+
+footer {
+    background-color: #E7E0D6 ; /* Lys baggrund for footeren */
+    color: #4f402c;           /* brun tekstfarve */
+    text-align: center;     /* Centrerer tekst og indhold */
+}
+
+form {
+    display: grid;
+    gap: 10px; /* Afstand mellem formularfelter */
+    margin-bottom: 20px;
+    text-align: left;
+    max-width: 400px; /* Maksimal bredde på formularen */
+    margin: 0 auto;   /* Centrerer formularen */
+}
+
+form label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #4f402c;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #4f402c; /* Brun baggrund for knappen */
+    color:  #E7E0D6;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+footer h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+form input[type="submit"]:hover {
+    background-color: #8F7858; /* Mørkere brun, når knappen hoveres */
 }
 
 @media only screen (min-width: 540px) and (orientation: landscape){
