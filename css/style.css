@@ -4,7 +4,49 @@
     box-sizing: border-box;
 }
 /* Vores start CSS er designet til mobiler i portait mode */
+:root {
+    --primary: #E7E0D6;
+    --secondary: #9E9984;
+    --tertiary: #868D77;
+    --accent: #AE944A;
+    --contrast: #475133;
+    --extra: #8F7858;
+}
 
+header a {
+    display: flex;
+}
+
+.left-icon {
+    width: 12%;
+    height: auto;
+    margin: 0.8rem auto;
+    display: flex;
+}
+
+nav {
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    width: 100%;
+}
+
+.cover {
+    width: 200px;
+    height: auto;
+}
+
+.bigphoto > video {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.bigphoto video {
+    min-width: 100%;
+    min-height: 100%;
+}
 
 @media only screen (min-width: 540px) and (orientation: landscape){
 
