@@ -93,7 +93,8 @@ footer {
 }
 
 footer img {
-    width: 50%;
+    width: 30%;
+    margin-top: 3rem;
 }
 
 form {
@@ -101,7 +102,7 @@ form {
     gap: 10px; /* Afstand mellem formularfelter */
     margin-bottom: 20px;
     text-align: left;
-    max-width: 350px; /* Maksimal bredde på formularen */
+    max-width: 400px; /* Maksimal bredde på formularen */
     margin: 0 auto;   /* Centrerer formularen */
 }
 
@@ -128,14 +129,14 @@ form input[type="submit"] {
 }
 
 footer h2 {
-    font-size: 50px;
-    margin-bottom: 20px;
-    margin-top: 3rem;
+    font-size: 4rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
 }
 
 
 form input[type="submit"]:hover {
-    background-color: #8F7858; /* Lysere brun, når knappen hoveres */
+    background-color: #8F7858; /* Mørkere brun, når knappen hoveres */
 }
 
 @media only screen (min-width: 540px) and (orientation: landscape){
@@ -157,3 +158,4 @@ form input[type="submit"]:hover {
 
     
 }
+
