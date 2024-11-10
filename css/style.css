@@ -55,14 +55,45 @@ nav ul {
     width: 100%;
 }
 
-#menu-bar:checked ~ nav ul {
+nav label img {
+    width: 15%;
+    height: auto;
+    margin-right: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 18px;
+}
+
+#menu-bar {
+    display: none;
+}
+
+#menu-bar:checked ~ ul {
     display: block;
+}
+
+#menu-bar:checked ~ ul li {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#menu-bar:checked ~ ul li a {
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    color: var(--primary);
+    padding: 5px;
+    font-size: 2rem;
 }
 
 footer {
     background-color: #E7E0D6 ; /* Lys baggrund for footeren */
     color: #4f402c;           /* brun tekstfarve */
     text-align: center;     /* Centrerer tekst og indhold */
+}
+
+footer img {
+    width: 50%;
 }
 
 form {
