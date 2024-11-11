@@ -106,18 +106,44 @@ header #menu-bar ul li:hover > ul {
 .mobil-tekst {
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
-    left: 50%;
     bottom: 0;
-    transform: translate(-50%, -10%);
     width: 100%;
     color: var(--primary);
-    padding: 0.5rem;
+    padding: 0.8rem;
     
 }
 
 .bestseller {
     width: 100%;
     border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: var(--primary);
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.1rem;
+    background-image: url(../imgs/anmeldelses-billede.webp);
+    background-size: 200% 100%;
+    background-position: 50% 50%;
+}
+
+.rating {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.fas {
+    width: 8%;
+    
+}
+
+.review-1 {
+    margin-bottom: 1rem;
 }
 
 
