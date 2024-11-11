@@ -90,8 +90,38 @@ header #menu-bar ul li:hover > ul {
     display: block;
 }
 
+.cover-photo{
+    width: 100%;
+    display: block;
 
+}
 
+.kategori-titel{
+    background-color:#E7E0D6 ;
+    position: absolute;
+    bottom: 0;  
+    width: 100%;  
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #8F7858;
+    font-weight: bold;  font-size: 24px;  padding: 10px 0;
+    text-align: center;
+}
+
+.kategorier{
+    display: grid;  
+    gap: 10px;  
+    grid-template-columns: repeat(2, 1fr);  
+    max-width: 800px;  
+    margin: 0 auto;
+    position: relative;  
+    overflow: hidden;
+}
+
+.kategorier img{
+    width: 100%;  
+    height: auto;  
+    display: block;
+}
 
 
 
