@@ -185,7 +185,11 @@ header #menu-bar ul li:hover > ul {
 
 .review-1, .review-2 {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    padding: 10% 20px;
+}
+
+.review-1 h2, .review-2 h2 {
+    margin-bottom: 4%;
 }
 
 
@@ -258,24 +262,105 @@ form input[type="submit"]:hover {
         height: 40vh;
     }
 
-    #bigphoto {
-       
-    }
-
 }
 
-@media only screen and (min-width: 768px) and (orientation: portrait){
+@media only screen and (min-width: 768px) and (orientation: portrait){ /* Til ipad der står op, aka portrait mode */
+    .left-icon {
+        width: 12%;
+    }
+
+    nav label img {
+        width: 14%;
+        margin-top: 1.2%;
+    }
+
+    .forside-titel {
+        font-size: 3.5rem;
+    }
+
+    .bigphototext-1, .bigphototext-2, .bestname, .review-titel {
+        font-size: 2.5rem;
+    }
+
+    .mobil-tekst, .review-tekst, form label, form input[type="submit"] {
+        font-size: 1.7rem;
+    }
+
+    form {
+        max-width: 650px;
+    }
+
+    footer h2 {
+        font-size: 5rem;
+    }
+
+    footer ul li {
+        font-size: 1.5rem;
+    }
 
     
 }
 
-@media only screen and (min-width: 1024px) and (orientation: landscape){
+@media only screen and (min-width: 1024px) and (orientation: landscape){ /* Til ipad der ligger ned, aka landscape mode */
+    
+    nav label img {
+        margin-top: 1%;
+    }
 
+    .forside-titel {
+        font-size: 4rem;
+    }
+
+    .bigphototext-1, .bigphototext-2, .bestname, .review-titel {
+        font-size: 2.8rem;
+    }
+
+    .mobil-tekst, .review-tekst, form label, form input[type="submit"] {
+        font-size: 2rem;
+    }
+
+    footer ul li {
+        font-size: 1.8rem;
+    }
     
 }
 
 @media only screen and (min-width: 1200px){
 
+    .forside-titel {
+        font-size: 3rem;
+        padding: 2%;
+        margin-bottom: -10px;
+    }
+
+    .bigphototext-1, .bigphototext-2 {
+        font-size: 2.2rem;
+    }
+
+    .forside-billeder {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: none;
+    }
+
+    .review-1, .review-2 {
+        padding: 3%;
+    }
+
+    .review-titel {
+        font-size: 2.1rem;
+    }
+
+    .review-tekst {
+        font-size: 1.5rem;
+    }
+
+    .reviews {
+        background-size: 100% 100%;
+    }
+
+    .fas {
+        width: 4%;
+    }
     
 }
 
