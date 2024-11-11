@@ -160,6 +160,13 @@ footer {
 
 }
 
+footer {
+    background-color: #E7E0D6 ; /* Lys baggrund for footeren */
+    color: #4f402c;           /* brun tekstfarve */
+    text-align: center;     /* Centrerer tekst og indhold */
+
+}
+
 footer img {
     width: 30%;
     margin-top: 3rem;
@@ -345,6 +352,22 @@ nav label img{
 .overlay-text:hover ~ .overlay-text {
     opacity: 1;
  }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    flex: 1;
+}
+
+form{
+    display: grid;
+
+}
+footer img{
+    width: 20%;
+}
+
 
 }
 
