@@ -199,6 +199,10 @@ footer {
     text-align: center;     /* Centrerer tekst og indhold */
 }
 
+footer ul li {
+    list-style: none;
+}
+
 footer img {
     width: 30%;
     margin-top: 3rem;
@@ -354,6 +358,7 @@ form input[type="submit"]:hover {
         text-decoration: none;
         color: var(--primary);
         font-size: 2rem;
+        padding: 18px;
     }
 
     nav ul li a:hover {
@@ -412,15 +417,18 @@ form input[type="submit"]:hover {
     .fas {
         width: 4%;
     }
-    
-    footer {
-        display: flex;
-        flex-direction: row;
+
+    footer form {
+        width: 100%;
+        max-width: none;
     }
 
     footer img {
-        width: 10%;
-        height: 10%;
+        width: 50%;
+        height: auto;
+        align-self: end;
+        justify-self: end;
+        margin: 3rem;
     }
 
 }
