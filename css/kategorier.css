@@ -90,9 +90,13 @@ header #menu-bar ul li:hover > ul {
     display: block;
 }
 
-.cover-photo img{
+.cover-photo-mobil-tablet img{
     width: 100%;
 
+}
+
+.cover-photo-computer{
+    width: 100%;
 }
 
 .kategori-titel{
@@ -216,20 +220,83 @@ form input[type="submit"]:hover {
     #bigphoto {
        
     }
+    .cover-photo-computer{
+        display: none;
+    }
 
 }
 
 @media only screen and (min-width: 768px) and (orientation: portrait){
 
-    
+.cover-photo-mobil-tablet img{
+    width: 100%;
+    height: 80%;
+}
+
+.kategori-titel{
+    font-size: 50px; 
+    padding: 2.0rem;
+}
+
+.overlay-text{
+    font-size: 35px;  
+    padding: 10px 0;
+
+}
+nav label img{
+    margin-top: 1%
+
+}
+
 }
 
 @media only screen and (min-width: 1024px) and (orientation: landscape){
 
+    .cover-photo img{
+        width: 100%;
+        height: 80%;
+    }
+    
+    .kategori-titel{
+        font-size: 65px; 
+        padding: 2.0rem;
+    }
+    
+    .overlay-text{
+        font-size: 45px;  
+        padding: 10px 0;
+    }
+
+    .left-icon {
+        width: 12%;
+    }
+
+    nav label img{
+        width: 14%;
+        margin-top:1.2%
+    }
     
 }
 
 @media only screen and (min-width: 1200px){
 
-    
+.kategori-billeder{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+}
+
+.kategorier{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+}
+.cover-photo-computer{
+    display: flex;
+    width: 100%;
+}
+.cover-photo-mobil-tablet img{
+    display: none;
+}
+
 }
