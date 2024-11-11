@@ -6,17 +6,14 @@
     <meta name="description" content="Find din drømmebrudekjole hos os. Stort udvalg af elegante brudekjoler i alle stilarter og størrelser. Book prøvning og få ekspert rådgivning. Gratis fragt ved køb.">
     <meta name="keywords" content="Brudekjole, Brudekjoler, Vintage brudekjoler, Køb af brudekjole, Køb af brudekjoler, Brudekjole trends, Brudekjole trends 2025, Brudekjoler med lange ærmer, Brudekjole med lange ærmer og blonder, Billige brudekjoler, Billig brudekjole">
     <link rel="icon" type="image/x-icon" href="../imgs/logo-endelig.webp" alt="Kennedys logo med firma navn og figur der ligner en kjole">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/materialer.css">
     <title>Kennedys</title>
 </head>
 <body>
     <header>
          <!-- Start af big photo-->
          <section class="cover">
-            <video autoplay loop muted id="bigphoto" >
-                <source src="../imgs/bigphotointro.webm" type="video/webm">
-                Your browser does not support the video tag. 
-            </video>
+            <img src="../imgs/matrialer-kategori-billede.webp" id="bigphoto" alt="Dette bliver indsat senere">
         </section>
         <!-- Slut på big photo -->
 
@@ -48,13 +45,14 @@
     </header>
 
     <main>
-
-        <h1 class="matrialer titel">Matrialer</h1>
-        <img class="infographic" src="../imgs/infographic-klar-til-site.webp" alt="Infographic, der illustrerer de forskellige materialer i en brudekjole, herunder satin, silke, blonde, tyl, organza og crepe.">
-        <section class="matriale-billeder">
+        <h1 class="matrialertitel">Materialer</h1>
+        <figure class="infographictext">
+            <img class="infographic" src="../imgs/infographic-klar-til-site.webp" alt="Infographic, der illustrerer de forskellige materialer i en brudekjole, herunder satin, silke, blonde, tyl, organza og crepe.">
+        </figure>
+        <figure class="matriale-billeder"> 
             <figure class="billede-box">
                 <img class="matrialer" src="../imgs/chiffon-matriale-billede.webp" alt="Brudekjole i let og elegant chiffon, der giver et romantisk og luftigt udtryk.">
-                <figcaption class="overlay-text">CHIFFON</figcaption>
+                <p class="overlay-text">CHIFFON</p>
             </figure>
             <figure class="billede-box">
                 <img class="matrialer" src="../imgs/organza-matriale-billede.webp" alt="Brudekjole i let og struktureret organza, som skaber et fyldigt og elegant look.">
@@ -84,11 +82,23 @@
                 <img class="matrialer" src="../imgs/perler-matriale-billede.webp" alt="Elegant brudekjole med smukke perledetaljer, der tilføjer glans og elegance.">
                 <figcaption class="overlay-text">PERLER</figcaption>
             </figure>
-        </section>
+        </figure>
     </main>
 
     <footer>
-        <img src="../imgs/logo.footer.webp" alt="Kennedys logo">
+        <!-- Formular til at booke en tid -->
+        <form>
+            <h2 class="booktid">Book en tid</h2>
+            <label for="navn">Navn</label>
+            <input type="text" id="navn" name="navn">
+            <label for="e-mail">E-mail</label>
+            <input type="text" id="e-mail" name="e-mail">
+            <label for="telefon">Telefon nr</label>
+            <input type="text" id="telefon" name="telefon">
+            <input type="submit" value="Indsend">
+        </form>
+        <!-- Slut på formular -->
+    
         <h2>Kontakt</h2>
         <ul>
             <li>Kennedys</li>
@@ -103,18 +113,8 @@
             <li>E-mail: </li>
             <li>salonen@kennedys.dk</li>
         </ul>
-        <!-- Formular til at booke en tid -->
-        <form>
-            <label for="navn">Navn</label>
-            <input type="text" id="navn" name="navn">
-            <label for="e-mail">E-mail</label>
-            <input type="text" id="e-mail" name="e-mail">
-            <label for="telefon">Telefon nr</label>
-            <input type="text" id="telefon" name="telefon">
-            <input type="submit" value="Indsend">
-        </form>
-        <!-- Slut på formular -->
-        <img src="../imgs/logo-endelig.webp" alt="Kennedys logo med firma navn og figur der ligner en kjole">
+        <img src="../imgs/logo.footer.webp" alt="Kennedys logo"> 
+        
     </footer>
 </body>
 </html>
