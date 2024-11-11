@@ -47,7 +47,6 @@ nav ul {
 .cover {
     position: relative;
     width: 100%;
-    height: 100vh; /* 100% af visningshøjden */
     overflow: hidden;
 }
 
@@ -90,6 +89,59 @@ header #menu-bar ul li:focus-within > ul,
 header #menu-bar ul li:hover > ul {
     display: block;
 }
+
+.forside-billeder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+}
+
+.forside-billeder img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#bestseller1 {
+    background-image: url(../imgs/bestseller-billede1.webp) alt="Billede af en brudekjole model der står opad et gammel dags metal vindue, iført en brudekjole med detaljeret top";
+}
+
+#bestseller2 {
+    background: src="../imgs/bestseller-billede2.webp" alt="Billede af en brudekjole model der står i en slots have, iført en brudekjole med blad design på kjolen";
+}
+
+#bestseller3 {
+    background: src="../imgs/bestseller-billede3.webp" alt="Billede af en brudekjole model der står med ryggen til kamaraet, iført en kjole med blomster detajler";
+}
+
+#bestseller4 {
+    background: src="../imgs/bestseller-billede4.webp" alt="Billede af en brudekjole model der står foran en metal port, iført en detaljeret kjole med massere af tyl i bunden";
+}
+}
+
+.overlay {
+
+}
+
+.mobil-tekst {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 15%;
+    z-index: 10;
+    margin-top: -22%;
+}
+
+.bestseller {
+    width: 100%;
+    /* border: 1px solid var(--primary); */
+}
+
 
 footer {
     background-color: #E7E0D6 ; /* Lys baggrund for footeren */
