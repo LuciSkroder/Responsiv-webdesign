@@ -90,9 +90,13 @@ header #menu-bar ul li:hover > ul {
     display: block;
 }
 
-.cover-photo img{
+.cover-photo-mobil-tablet img{
     width: 100%;
 
+}
+
+.cover-photo-computer{
+    width: 100%;
 }
 
 .kategori-titel{
@@ -216,12 +220,15 @@ form input[type="submit"]:hover {
     #bigphoto {
        
     }
+    .cover-photo-computer{
+        display: none;
+    }
 
 }
 
 @media only screen and (min-width: 768px) and (orientation: portrait){
 
-.cover-photo img{
+.cover-photo-mobil-tablet img{
     width: 100%;
     height: 80%;
 }
@@ -284,4 +291,12 @@ nav label img{
     grid-template-columns: repeat(4, 1fr);
     gap: 0px;
 }
+.cover-photo-computer{
+    display: flex;
+    width: 100%;
+}
+.cover-photo-mobil-tablet img{
+    display: none;
+}
+
 }
