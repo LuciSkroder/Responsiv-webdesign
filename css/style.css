@@ -36,7 +36,7 @@ nav {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent sort baggrund */
     color: white;
-    padding: 15px 0;
+    padding: 1rem 0;
     text-align: center;
 }
 
@@ -58,11 +58,11 @@ nav ul {
 nav label img {
     width: 15%;
     height: auto;
-    margin-right: 10px;
+    margin-right: 0.8rem;
     position: absolute;
     right: 0;
     top: 0;
-    margin-top: 18px;
+    margin-top: 1.2rem;
 }
 
 #menu-bar {
@@ -82,7 +82,7 @@ nav label img {
     margin: 0 auto;
     text-decoration: none;
     color: var(--primary);
-    padding: 5px;
+    padding: 0.3rem;
     font-size: 2rem;
 }
 
@@ -99,21 +99,21 @@ footer img {
 
 form {
     display: grid;
-    gap: 10px; /* Afstand mellem formularfelter */
-    margin-bottom: 20px;
+    gap: 1rem; /* Afstand mellem formularfelter */
+    margin-bottom: 1.5rem;
     text-align: left;
     max-width: 400px; /* Maksimal bredde på formularen */
     margin: 0 auto;   /* Centrerer formularen */
 }
 
 form label {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
 }
 
 form input[type="text"] {
-    padding: 10px;
-    font-size: 14px;
+    padding: 0.8rem;
+    font-size: 1rem;
     border: 1px solid #4f402c;
     border-radius: 4px;
 }
@@ -122,9 +122,9 @@ form input[type="submit"] {
     background-color: #4f402c; /* Brun baggrund for knappen */
     color:  #E7E0D6;
     border: none;
-    padding: 10px 20px;
+    padding: 0.6rem 1.4rem;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem;
     border-radius: 4px;
 }
 
