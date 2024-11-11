@@ -280,53 +280,54 @@ nav label img{
 
 @media only screen and (min-width: 1200px){
 
-.kategori-billeder{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0px;
-}
-
-.kategorier{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 0px;
+    .kategori-billeder {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        background-color: #f8f8f8;
+    }
+    
+    .kategorier {
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .kategorier img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
 }
 .cover-photo-computer{
-    display:
+    
     width: 100%;
     background-image: cover;
-}
+    display: block;
+    height: auto;
+    }
+    
 .cover-photo-mobil-tablet img{
     display: none;
 }
 
-
-.billede-box img{
-    display: block;
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
 }
 
-.overlay-text{
-    display: none;
-}
-
-.kategorier:hover ~ .overlay-text{
-    display: block;
-    
-    width: 100%;
-    color: white;  
-    font-weight: bold;  
-    text-align: center;  
-    font-size: 25px;  
-    padding: 10px 0;
-    
-    
+.kategorier:hover .overlay-text {
+    opacity: 1;
 }
 
 
 
 
-
-
-}
 
 
