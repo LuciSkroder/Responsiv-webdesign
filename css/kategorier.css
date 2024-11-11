@@ -98,6 +98,7 @@ header #menu-bar ul li:hover > ul {
 .cover-photo-computer{
     width: 50%;
     display: none;
+    height: 80%;
 }
 
 .cover-photo-computer img{
@@ -305,6 +306,45 @@ nav label img{
 
 @media only screen and (min-width: 1200px){
 
+
+    .left-icon {
+        width: 20%;
+    }
+    
+    nav label img {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        list-style: none;
+        padding: 0 15%;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: var(--primary);
+        font-size: 2rem;
+    }
+
+    nav ul li a:hover {
+        background: var(--accent);
+    }
+
+    nav ul li ul {
+        display: none;
+    }
+
     .kategori-billeder {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -349,10 +389,6 @@ nav label img{
    opacity: 1;
 }
 
-.overlay-text:hover ~ .overlay-text {
-    opacity: 1;
- }
-
 footer{
     display: flex;
     justify-content: space-between;
@@ -367,7 +403,6 @@ form{
 footer img{
     width: 20%;
 }
-
 
 }
 
