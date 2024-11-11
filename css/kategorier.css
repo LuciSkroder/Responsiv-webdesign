@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Vores start CSS er designet til mobiler i portait mode */
+:root {
+    --primary: #E7E0D6;
+    --secondary: #9E9984;
+    --tertiary: #868D77;
+    --accent: #AE944A;
+    --contrast: #475133;
+    --extra: #8F7858;
+    --shadow: #4f402c;
+}
+
+header {
+    position: sticky;
+}
+
+header a {
+    display: flex;
+}
+
+.left-icon {
+    width: 12%;
+    height: auto;
+    margin: 0.8rem auto;
+    display: flex;
+}
+
+nav {
+    position: absolute; /* Gør navbaren absolut i forhold til video-containeren */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent sort baggrund */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    display: none;
+}
+
+.cover {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+#bigphoto {
+    width: 100%;
+}
+
+nav label img {
+    width: 15%;
+    height: auto;
+    margin-right: 2%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 4%;
+}
+
+#menu-bar {
+    display: none;
+}
+
+#menu-bar:checked ~ ul {
+    display: block;
+}
+
+#menu-bar:checked ~ ul li {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#menu-bar:checked ~ ul li a {
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    color: var(--primary);
+    padding: 0.3rem;
+    font-size: 2rem;
+}
+
+header #menu-bar ul li:focus-within > ul,
+header #menu-bar ul li:hover > ul {
+    display: block;
+}
+
+.cover-photo{
+    width: 100%;
+    display: block;
+
+}
+
+.kategori-titel{
+    background-color:#E7E0D6 ;
+    position: absolute;
+    bottom: 0;  
+    width: 100%;  
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #8F7858;
+    font-weight: bold;  font-size: 24px;  padding: 10px 0;
+    text-align: center;
+}
+
+.kategorier{
+    display: grid;  
+    gap: 10px;  
+    grid-template-columns: repeat(2, 1fr);  
+    max-width: 800px;  
+    margin: 0 auto;
+    position: relative;  
+    overflow: hidden;
+}
+
+.kategorier img{
+    width: 100%;  
+    height: auto;  
+    display: block;
+}
+
+
+
+footer {
+    background-color: #E7E0D6 ; /* Lys baggrund for footeren */
+    color: #4f402c;           /* brun tekstfarve */
+    text-align: center;     /* Centrerer tekst og indhold */
+}
+
+footer img {
+    width: 30%;
+    margin-top: 3rem;
+}
+
+form {
+    display: grid;
+    gap: 1rem; /* Afstand mellem formularfelter */
+    margin-bottom: 1.5rem;
+    text-align: left;
+    max-width: 400px; /* Maksimal bredde på formularen */
+    margin: 0 auto;   /* Centrerer formularen */
+}
+
+form label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #4f402c;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    background-color: #4f402c; /* Brun baggrund for knappen */
+    color:  #E7E0D6;
+    border: none;
+    padding: 0.6rem 1.4rem;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+footer h2 {
+    font-size: 4rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+
+form input[type="submit"]:hover {
+    background-color: #8F7858; /* Mørkere brun, når knappen hoveres */
+}
+
+@media only screen and (min-width: 540px) and (orientation: landscape){ /* Til mobil der ligger ned, aka landscape mode */
+    
+    .left-icon {
+        width: 8%;
+    }
+
+    nav label img {
+        width: 9%;
+        margin-top: 2%;
+    }
+
+    .cover {
+        height: 40vh;
+    }
+
+    #bigphoto {
+       
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (orientation: portrait){
+
+    
+}
+
+@media only screen and (min-width: 1024px) and (orientation: landscape){
+
+    
+}
+
+@media only screen and (min-width: 1200px){
+
+    
+}
