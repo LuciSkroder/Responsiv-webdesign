@@ -58,11 +58,11 @@ nav ul {
 nav label img {
     width: 15%;
     height: auto;
-    margin-right: 0.8rem;
+    margin-right: 2%;
     position: absolute;
     right: 0;
     top: 0;
-    margin-top: 1.2rem;
+    margin-top: 4%;
 }
 
 #menu-bar {
@@ -84,6 +84,11 @@ nav label img {
     color: var(--primary);
     padding: 0.3rem;
     font-size: 2rem;
+}
+
+header #menu-bar ul li:focus-within > ul,
+header #menu-bar ul li:hover > ul {
+    display: block;
 }
 
 footer {
@@ -139,22 +144,38 @@ form input[type="submit"]:hover {
     background-color: #8F7858; /* Mørkere brun, når knappen hoveres */
 }
 
-@media only screen (min-width: 540px) and (orientation: landscape){
+@media only screen and (min-width: 540px) and (orientation: landscape){ /* Til mobil der ligger ned, aka landscape mode */
+    
+    .left-icon {
+        width: 8%;
+    }
 
+    nav label img {
+        width: 9%;
+        margin-top: 2%;
+    }
+
+    .cover {
+        height: 40vh;
+    }
+
+    #bigphoto {
+       
+    }
 
 }
 
-@media only screen (min-width: 768px) and (orientation: portrait){
+@media only screen and (min-width: 768px) and (orientation: portrait){
 
     
 }
 
-@media only screen (min-width: 1024px) and (orientation: landscape){
+@media only screen and (min-width: 1024px) and (orientation: landscape){
 
     
 }
 
-@media only screen (min-width: 1200px){
+@media only screen and (min-width: 1200px){
 
     
 }
