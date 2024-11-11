@@ -299,4 +299,36 @@ nav label img{
     display: none;
 }
 
+
+.billede-box img{
+    display: block;
 }
+
+.overlay-text{
+    display: none;
+}
+
+.kategorier:hover ~ .overlay-text{
+    display: block;
+    position: relative;
+    bottom: 50%;  
+    left: 0;  
+    right: 0;  
+    width: 100%;
+    color: white;  
+    font-weight: bold;  
+    text-align: center;  
+    font-size: 25px;  
+    padding: 10px 0;
+    opacity: 0;
+    transition: 0.6s;
+}
+
+
+
+
+
+
+}
+
+
