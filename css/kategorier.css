@@ -292,8 +292,9 @@ nav label img{
     gap: 0px;
 }
 .cover-photo-computer{
-    display: flex;
+    display:
     width: 100%;
+    background-image: cover;
 }
 .cover-photo-mobil-tablet img{
     display: none;
@@ -310,10 +311,7 @@ nav label img{
 
 .kategorier:hover ~ .overlay-text{
     display: block;
-    position: relative;
-    bottom: 50%;  
-    left: 0;  
-    right: 0;  
+    
     width: 100%;
     color: white;  
     font-weight: bold;  
