@@ -48,10 +48,29 @@ nav ul {
     position: relative;
     width: 100%;
     overflow: hidden;
+    margin-bottom: -2%;
 }
 
 #bigphoto {
     width: 100%;
+}
+
+.bigphototext-1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: var(--primary);
+    padding: 2%;
+    text-shadow: 2px 2px 2px black;
+}
+
+.bigphototext-2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: var(--primary);
+    padding: 2%;
+    text-shadow: 2px 2px 2px black;
 }
 
 nav label img {
@@ -90,6 +109,14 @@ header #menu-bar ul li:hover > ul {
     display: block;
 }
 
+.forside-titel {
+    background-color: var(--secondary);
+    color: var(--primary);
+    text-align: center;
+    padding: 4% 0;
+    text-shadow: 2px 2px 2px black;
+}
+
 .forside-billeder {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -101,6 +128,15 @@ header #menu-bar ul li:hover > ul {
     text-align: center;
     margin: -2px;
     margin-bottom: -5px;
+}
+
+.bestname::after {
+    content: "\a";
+    white-space: pre;
+}
+
+.bestname {
+    font-size: 1.5rem;
 }
 
 .mobil-tekst {
@@ -115,20 +151,25 @@ header #menu-bar ul li:hover > ul {
 
 .bestseller {
     width: 100%;
-    border: 2px solid rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 2px;
+}
+
+.whitespace {
+    height: 2rem;
+    background-color: var(--secondary);
 }
 
 .reviews {
     display: flex;
     flex-direction: column;
-    padding: 5%;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: var(--primary);
+    color: #E7E0D6;
     text-shadow: 2px 2px 2px black;
-    font-size: 1.1rem;
-    background-image: url(../imgs/anmeldelses-billede.webp);
+    font-size: 0.8rem;
+    background: url(../imgs/anmeldelses-billede.webp), rgba(0, 0, 0, 0.7);
     background-size: 200% 100%;
     background-position: 50% 50%;
+    text-align: center;
 }
 
 .rating {
@@ -142,8 +183,9 @@ header #menu-bar ul li:hover > ul {
     
 }
 
-.review-1 {
-    margin-bottom: 1rem;
+.review-1, .review-2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
 }
 
 
@@ -165,6 +207,7 @@ form {
     text-align: left;
     max-width: 400px; /* Maksimal bredde på formularen */
     margin: 0 auto;   /* Centrerer formularen */
+    padding: 5%;
 }
 
 form label {
