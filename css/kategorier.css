@@ -159,12 +159,6 @@ header #menu-bar ul li:hover > ul {
     text-decoration: none;     
 }
 
-footer {
-    background-color: #E7E0D6 ; /* Lys baggrund for footeren */
-    color: #4f402c;           /* brun tekstfarve */
-    text-align: center;     /* Centrerer tekst og indhold */
-
-}
 
 footer {
     background-color: #E7E0D6 ; /* Lys baggrund for footeren */
@@ -472,7 +466,7 @@ nav label img{
     text-align: center;
 }
 
-.contact-info p {
+.kontakt1, .kontakt2 {
     font-size: 18px;
     color: #4f402c;
     line-height: 1.6;
@@ -485,7 +479,6 @@ nav label img{
     justify-content: center;
     align-items: center;
 }
-
 
 .booking-form input[type="text"],
 .booking-form input[type="email"],
@@ -505,6 +498,12 @@ nav label img{
     justify-content: center;
     justify-self: center;
 }
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+  }
 
 }
 
