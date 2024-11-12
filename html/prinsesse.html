@@ -20,9 +20,9 @@
             <input type="checkbox" id="menu-bar">
             <label for="menu-bar"><img src="../imgs/burger-menu-svgrepo-com.svg" alt="Tre streger der åbner menuen"></label>
             <ul>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="booking.html">Booking</a></li>
-                <li><a href="kategorier.html">kategorier</a>
+                <li><a href="#">Services</a></li>
+                <li><a href="#hop">Booking</a></li>
+                <li><a href="kategorier.html">Kategorier</a>
                     <!-- Fold ud menu når man hover over kategorier -->
                     <ul>
                         <li><a href="materialer.html">Materialer</a></li>
@@ -35,7 +35,7 @@
                         <li><a>Dyb ryg</a></li>
                     </ul></li>
                     <!-- Slut på fold ud menu -->
-                <li><a href="kontakt.html">Kontakt</a></li>
+                <li><a href="#">Kontakt</a></li>
             </ul>
         </nav>
         <!-- Slut af navigations bar -->
@@ -129,37 +129,40 @@
         
     </main>
 
-    <footer>
-        <h2>Book en tid</h2>
-         <!-- Formular til at booke en tid -->
-         <form>
-            <label for="navn">Navn</label>
-            <input type="text" id="navn" name="navn">
-            <label for="e-mail">E-mail</label>
-            <input type="text" id="e-mail" name="e-mail">
-            <label for="telefon">Telefon nr</label>
-            <input type="text" id="telefon" name="telefon">
-            <input type="submit" value="Indsend">
-        </form>
-        <!-- Slut på formular -->
-
-        <h2>Kontakt</h2> 
-        <ul class="kontakt1">
-            <li>Kennedys</li>
-            <li>Astervej 9</li>
-            <li>8471 Sabro</li>
-            <li>Danmark</li>
-            <li>CVR-nummer: 28934874</li>
-        </ul>
-        <ul class="kontakt2">
-            <li>Telefon nr:</li>
-            <li>+4586495200</li>
-            <li>E-mail: </li>
-            <li>salonen@kennedys.dk</li>
-        </ul>
-       
-        <img src="../imgs/logo.footer.webp" alt="Kennedys logo med firma navn og figur der ligner en kjole">
+    <footer class="footer">
+        <section id="hop" class="footer-section booking-form">
+            <h2>Book en tid</h2>
+            <form>
+                <label for="navn">Navn</label>
+                <input type="text" id="navn" name="navn">
+                <label for="e-mail">E-mail</label>
+                <input type="text" id="e-mail" name="e-mail">
+                <label for="telefon">Telefon nr</label>
+                <input type="text" id="telefon" name="telefon">
+                <input type="submit" value="Indsend">
+            </form>
+        </section>
+        <section class="footer-section contact-info">
+            <h2>Kontakt</h2>
+            <ul class="kontakt1">
+                <li>Kennedys</li>
+                <li>Astervej 9</li>
+                <li>8471 Sabro</li>
+                <li>Danmark</li>
+                <li>CVR-nummer: 28934874</li>
+            </ul>
+            <ul class="kontakt2">
+                <li>Telefon nr:</li>
+                <li>+4586495200</li>
+                <li>E-mail: </li>
+                <li>salonen@kennedys.dk</li>
+            </ul>
+        </section>
+        <section class="footer-section logo-section">
+            <img src="../imgs/logo.footer.webp" alt="Kennedys Logo" class="footer-logo">
+        </section>
     </footer>
+
 </body>
 </html>
 
