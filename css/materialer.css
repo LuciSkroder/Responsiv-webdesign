@@ -132,8 +132,8 @@ header #menu-bar ul li:hover > ul {
 }
 
 .infohover {
-    width: 50%;
-    height: 50%;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
     background-color: red;
 }
