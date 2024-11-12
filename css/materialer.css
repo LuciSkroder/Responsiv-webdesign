@@ -131,6 +131,17 @@ header #menu-bar ul li:hover > ul {
     
 }
 
+.infohover {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.infohover p, .infohover img {
+
+}
+
 .matriale-billeder { 
 display: grid;
 grid-template-columns: 1fr 1fr; /* Creates two equal-width columns */
