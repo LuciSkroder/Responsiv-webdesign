@@ -165,6 +165,7 @@ body {
     margin: 5rem auto;
     overflow: hidden;
     margin-top: 0;
+    margin-bottom: 0;
 }
 .container2 .slider-holder2{
     display: grid;
@@ -206,6 +207,7 @@ body {
     text-align: center;  
     font-size: 1rem; 
     text-shadow: 2px 2px 2px black;
+    margin-bottom: 12%;
 }
 .overlay-text h2 {
     font-size: 26px; 
@@ -218,6 +220,7 @@ footer {
     background-color: #E7E0D6 ; /* Lys baggrund for footeren */
     color: #4f402c;           /* brun tekstfarve */
     text-align: center;     /* Centrerer tekst og indhold */
+    margin-top: 0;
 
 }
 
@@ -282,33 +285,33 @@ form input[type="submit"]:hover {
         font-size: 20px;
     }
 
+    .prinsesse-titel{
+        font-size: 4rem;  
+        padding: 2rem;
+    }
+
+    .overlay-text {
+        margin-bottom: 10%;
+    }
+
 
 }
 
 @media only screen and (min-width: 768px) and (orientation: portrait){ /* Til tablet */
 
-    .container1 .slider-holder1 .container2 .slider-holder2{
+    .container1 .slider-holder1, .container2 .slider-holder2{
         display: grid;
-        grid-template-columns: repeat(4, 33.33%);
+        grid-template-columns: repeat(4,33.33%);
         height: 100%; }
+
+    
         
-    .prinsesse-titel{
-        background-color:rgba(0, 0, 0, 0.8) ;
-        position: absolute;
-        bottom: 0;  
-        width: 100%;  
-        color: var(--primary);
-        font-weight: bold;  
+    .prinsesse-titel{ 
         font-size: 6rem;  
         padding: 3rem;
-        text-align: center;
     }
     .overlay-text{
-        width: 100%;
-        color:#E7E0D6;   
-        text-align: center;  
         font-size: 1.5rem; 
-        text-shadow: 2px 2px 2px black;
     }
     .overlay-text h2 {
         font-size: 2.5rem; 
@@ -333,18 +336,67 @@ form input[type="submit"]:hover {
         background-color: #000000;
         margin: .4rem .3rem;
     }
+
+    .overlay-text {
+        font-size: 20px;
+        margin-bottom: 20%;
+    }
 }
 
 @media only screen and (min-width: 1024px) and (orientation: landscape){
+   
+    .container1 .slider-holder1, .container2 .slider-holder2{
+        display: grid;
+        grid-template-columns: repeat(4,33.33%);
+        height: 100%; }
 
-    
+        .prinsesse-titel{
+            background-color:rgba(0, 0, 0, 0.8) ;
+            position: absolute;
+            bottom: 0;  
+            width: 100%;  
+            color: var(--primary);
+            font-weight: bold;  
+            font-size: 6rem;  
+            padding: 3rem;
+            text-align: center;
+        }
+
+        nav {
+            position: absolute; /* Gør navbaren absolut i forhold til video-containeren */
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent sort baggrund */
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .container1 .button-holder1 .dots, .container2 .button-holder2 .dots  {
+            display: inline-block;
+            height: 30px;
+            width: 30px;
+        }
+
+        .overlay-text {
+            font-size: 25px;
+            margin-bottom: 10%;
+        }
+
+        .overlay-text h2 {
+            font-size: 35px; 
+        }
 }
 
 @media only screen and (min-width: 1200px){
-    .container1 .slider-holder1 .container2 .slider-holder2{
+    .container1 .slider-holder1, .container2 .slider-holder2{
         display: grid;
-        grid-template-columns: repeat(4, 25%);
+        grid-template-columns: repeat(4,25%);
         height: 100%; }
-     
-    
+
+        .container2 .button-holder2 .dots,.container1 .button-holder1 .dots  {
+            display: none;
+           
+        }
 }

@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /responsiv-webdesign
-Sitemap: /sitemap.xml
+Allow: /
