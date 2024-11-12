@@ -47,7 +47,7 @@ nav {
     left: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent sort baggrund */
-    color: white;
+    color:#E7E0D6;
     padding: 1rem 0;
     text-align: center;
 }
@@ -112,23 +112,129 @@ header #menu-bar ul li:hover > ul {
 
 .matrialertitel {
         position: absolute;
-        top: 70%;
         left: 50%;
         transform: translate(-50%, -50%);
         border: 5px;
         background: rgba(0, 0, 0, 0.5); 
         width: 100%;
-        height: 7%;
+        height: 10%;
         color: #fff; 
         text-align: center;
         font-size: 2.5rem;
         font-weight: bold;
+        top: 94%;
 
 }
 
 .infographic {
     width: 100%;
     
+}
+
+.infohover {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.infohover img {
+    overflow:hidden;
+    width: 100%;
+    object-fit: contain;
+}
+
+#satin {
+    position: absolute;
+    top: 13.8%;
+    left: 60%;
+}
+
+#silke {
+    position: absolute;
+    top: 39.7%;
+    left: 73.3%;
+}
+
+#blonde {
+    position: absolute;
+    top: 13.8%;
+    left: 20.5%;
+}
+
+#tyl {
+    position: absolute;
+    top:65.7% ;
+    left:17.7% ;
+}
+
+#organza {
+    position: absolute;
+    top: 65.7% ;
+    right: 17.7% ;
+}
+
+#crepe {
+    position: absolute;
+    top: 39.7% ;
+    left: 7.9% ;
+}
+
+.infohover p, .infohover input {
+display: none;
+}
+
+#satinbutton:checked ~ label p {
+    display: block;
+    color: var(--primary);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#silkebutton:checked ~ label p {
+    display: block;
+    color: var(--primary);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#blondebutton:checked ~ label p {
+    display: block;
+    color: var(--primary);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#tylbutton:checked ~ label p {
+    display: block;
+    color: var(--primary);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#organzabutton:checked ~ label p {
+    display: block;
+    color: var(--primary);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#crepebutton:checked ~ label p {
+    display: block;
+    color: var(--primary);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.infohover p {
+    display: none;
+    position: fixed;      /* Use fixed to center on the viewport */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -72%); /* Center both vertically and horizontally */
+    color: var(--primary);
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    width: 100%;          /* Adjust width as needed */
+    padding: 14rem 1.3rem;
+    text-align: center;
+    font-size: 1rem;
+    z-index: 10;
+    
+
 }
 
 .matriale-billeder { 
@@ -318,14 +424,14 @@ form input[type="submit"]:hover {
         display: none;
     }
 
-}
+} 
 
 @media only screen and (min-width: 1024px) and (orientation: landscape){ /* tablet landscape */
     .matrialertitel {
         display: block;
     }
     .matrialertitel {
-        position: absolute;
+        /* position: absolute;
         top: 197%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -337,9 +443,19 @@ form input[type="submit"]:hover {
         text-align: center;
         padding: 1rem;
         font-size: 2.5rem;
-        font-weight: bold;
+        font-weight: bold; */
+
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 96.1%;
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 5rem;
+    text-align: center;
+    height: auto%;
+    text-transform: uppercase;
     }
-}
+
 
 .cover-photo-computer {
     display: none;
@@ -376,7 +492,7 @@ form input[type="submit"]:hover {
     }
 
     nav ul li a:hover {
-        background: var(--accent);
+        background: #4f402c;
     }
 
     nav ul li ul {
