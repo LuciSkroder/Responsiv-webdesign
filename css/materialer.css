@@ -179,10 +179,44 @@ header #menu-bar ul li:hover > ul {
     left: 7.9% ;
 }
 
-
-
 .infohover p, .infohover input {
 display: none;
+}
+
+#satinbutton:checked ~ label p {
+    display: block;
+    color: var(--primary);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#silkebutton:checked ~ label p {
+    display: block;
+    color: var(--primary);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#blondebutton:checked ~ label p {
+    display: block;
+    color: var(--primary);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#tylbutton:checked ~ label p {
+    display: block;
+    color: var(--primary);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#organzabutton:checked ~ label p {
+    display: block;
+    color: var(--primary);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#crepebutton:checked ~ label p {
+    display: block;
+    color: var(--primary);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .matriale-billeder { 
