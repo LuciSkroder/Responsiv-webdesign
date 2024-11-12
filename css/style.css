@@ -363,7 +363,7 @@ form input[type="submit"]:hover {
 @media only screen and (min-width: 1200px){
 
     .left-icon {
-        width: 20%;
+        width: 15%;
     }
     
     nav label img {
@@ -382,14 +382,14 @@ form input[type="submit"]:hover {
 
     nav ul li {
         list-style: none;
-        padding: 0 15%;
+        padding: 0 5%;
     }
 
     nav ul li a {
         text-decoration: none;
         color: var(--primary);
         font-size: 2rem;
-        
+        padding: 18px;
     }
 
     nav ul li a:hover {
