@@ -110,11 +110,10 @@ header #menu-bar ul li:hover > ul {
 }
 
 .forside-titel {
-    background-color: var(--secondary);
-    color: var(--primary);
+    background-color: var(--primary);
+    color: var(--shadow);
     text-align: center;
     padding: 4% 0;
-    text-shadow: 2px 2px 2px black;
 }
 
 .forside-billeder {
@@ -170,12 +169,16 @@ header #menu-bar ul li:hover > ul {
     background-size: 200% 100%;
     background-position: 50% 50%;
     text-align: center;
+    height: 30%;
 }
 
 .rating {
     width: 100%;
     display: flex;
     justify-content: center;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 5%;
 }
 
 .fas {
@@ -183,12 +186,44 @@ header #menu-bar ul li:hover > ul {
     
 }
 
-.review-1, .review-2 {
+.review-1, .review-2, .review-3, .review-4 {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10% 20px;
 }
 
-.review-1 h2, .review-2 h2 {
+main section section article {
+    height: 100%;
+}
+
+.slide {
+    width: 100%;
+    height: 0px;
+    padding-bottom: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide article {
+    position: absolute;
+    animation: fling-minislide 20s infinite;
+    opacity: 0;
+    width: 100%;
+}
+
+@keyframes fling-minislide {
+    0%, 9% { opcaity: 0.5; }
+    10%, 45% { opacity: 1; }
+    46%, 89% { opacity: 0; }
+    90%, 100% { opcaity:0.5; }
+}
+.slide article:nth-child(1){
+    animation-delay:0s;
+}
+.slide article:nth-child(2){
+    animation-delay:10s;
+}
+
+.review-1 h2, .review-2 h2, .review-3 h2, .review-4 h2 {
     margin-bottom: 4%;
 }
 
@@ -260,10 +295,6 @@ form input[type="submit"]:hover {
     nav label img {
         width: 9%;
         margin-top: 2%;
-    }
-
-    .cover {
-        height: 40vh;
     }
 
 }
@@ -393,11 +424,11 @@ form input[type="submit"]:hover {
         display: block;
     }
 
-    .review-1 h2, .review-2 h2 {
+    .review-1 h2, .review-2 h2, .review-3 h2, .review-4 h2 {
         margin-bottom: 1%;
     }
 
-    .review-1, .review-2 {
+    .review-1, .review-2, .review-3, .review-4 {
         padding: 18% 3%;
     }
 
@@ -412,6 +443,12 @@ form input[type="submit"]:hover {
     .reviews {
         background-size: 100% 100%;
         flex-direction: row;
+        object-fit: contain;
+        height: 50vh;
+    }
+
+    main section section article {
+        height: 50vh;
     }
 
     .fas {

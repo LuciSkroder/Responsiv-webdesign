@@ -19,7 +19,7 @@
             <ul>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="booking.html">Booking</a></li>
-                <li><a href="kategorier.html">kategorier</a>
+                <li><a href="kategorier.html">Kategorier</a>
                     <!-- Fold ud menu når man hover over kategorier -->
                     <ul>
                         <li><a href="materialer.html">Materialer</a></li>
@@ -42,20 +42,22 @@
         <img src="../imgs/bestseller-billede1.webp" alt="Kvinde der står indendørs iført brudekjole med blomster på">
         </section>
         <section class="cover-photo-computer">
-            <img src="../imgs/big-photo-kategori.webp" alt="Kvinde der læner sig op af ræling med en tætsiddende brudekjole med blomster på">
+            <img src="../imgs/big-photo-kategorier.webp" alt="Kvinde der læner sig op af ræling med en tætsiddende brudekjole med blomster på">
             </section>
         <h1 class="kategori-titel">KATEGORIER</h1>
         <!-- Slut på big photo -->
     </header>
     <main>
-        <section class="kategori-billeder">
+        <section class="kategori-billeder" class="billede-link">
             <figure class="billede-box">
                 <img class="kategorier" src="../imgs/matrialer-kategori-billede.webp" alt="Brudekjole med sløjfe">
-                <figcaption class="overlay-text">MATRIALER</figcaption>
-            </figure>
+                <figcaption class="overlay-text"><a href="materialer.html">MATRIALER</a></figcaption>
+                </figure>
+
             <figure class="billede-box">
+                <a href="prinsesse.html"></a>
                 <img class="kategorier" src="../imgs/prinsesse-kategori-billede.webp" alt="Prinsesse brudekjole">
-                <figcaption class="overlay-text">PRINSESSE</figcaption>
+                <figcaption class="overlay-text"><a href="prinsesse.html">PRINSESSE</a></figcaption>
             </figure>
             <figure class="billede-box">
                 <img class="kategorier" src="../imgs/a-facon-kategori-billede.webp" alt="A-facon brudekjole">
@@ -85,35 +87,36 @@
         
     </main>
     <footer>
-        <h2>Book en tid</h2>
-         <!-- Formular til at booke en tid -->
-         <form>
-            <label for="navn">Navn</label>
-            <input type="text" id="navn" name="navn">
-            <label for="e-mail">E-mail</label>
-            <input type="text" id="e-mail" name="e-mail">
-            <label for="telefon">Telefon nr</label>
-            <input type="text" id="telefon" name="telefon">
-            <input type="submit" value="Indsend">
-        </form>
-        <!-- Slut på formular -->
-
-        <h2>Kontakt</h2> 
-        <ul class="kontakt1">
-            <li>Kennedys</li>
-            <li>Astervej 9</li>
-            <li>8471 Sabro</li>
-            <li>Danmark</li>
-            <li>CVR-nummer: 28934874</li>
-        </ul>
-        <ul class="kontakt2">
-            <li>Telefon nr:</li>
-            <li>+4586495200</li>
-            <li>E-mail: </li>
-            <li>salonen@kennedys.dk</li>
-        </ul>
-       
-        <img src="../imgs/logo.footer.webp" alt="Kennedys logo med firma navn og figur der ligner en kjole">
+        <footer class="footer">
+            <section class="footer-section booking-form">
+                <h2>Book en tid</h2>
+                <form>
+                    <label for="name">Navn:</label>
+                    <input type="text" id="name" name="name"><br>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email"><br>
+                    
+                    <label for="phone">Telefon:</label>
+                    <input type="tel" id="phone" name="phone"><br>
+                    <button type="submit" class="submit-button">Indsend</button>
+                </form>
+            </section>
+            <section class="footer-section contact-info">
+                <h2>Kontakt</h2>
+                <p>Kennedys<br>
+                   Astervej 9<br>
+                   8471 Sabro<br>
+                   Danmark<br>
+                   CVR-nummer: 28934874<br>
+                   Telefon nr: +4586495200<br>
+                   E-mail: salonen@kennedys.dk
+                </p>
+            </section>
+            <section class="footer-section logo-section">
+                <img src="../imgs/logo.footer.webp" alt="Kennedys Logo" class="footer-logo">
+            </section>
+        </footer>
     </footer>
 </body>
 </html>
