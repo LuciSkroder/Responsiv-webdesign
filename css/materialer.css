@@ -219,6 +219,24 @@ display: none;
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+.infohover p {
+    display: none;
+    position: fixed;      /* Use fixed to center on the viewport */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -72%); /* Center both vertically and horizontally */
+    color: var(--primary);
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    width: 100%;          /* Adjust width as needed */
+    padding: 14rem 1.3rem;
+    text-align: center;
+    font-size: 1rem;
+    z-index: 10;
+    
+
+}
+
 .matriale-billeder { 
 display: grid;
 grid-template-columns: 1fr 1fr; /* Creates two equal-width columns */
