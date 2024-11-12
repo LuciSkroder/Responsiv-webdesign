@@ -228,14 +228,12 @@ main section section article {
 }
 
 
+
 footer {
     background-color: #E7E0D6 ; /* Lys baggrund for footeren */
     color: #4f402c;           /* brun tekstfarve */
     text-align: center;     /* Centrerer tekst og indhold */
-}
 
-footer ul li {
-    list-style: none;
 }
 
 footer img {
@@ -543,8 +541,8 @@ form input[type="submit"]:hover {
         text-align: center;
     }
     
-    .contact-info ul li {
-        font-size: 18px;
+    .kontakt1, .kontakt2 {
+        font-size: 15px;
         color: #4f402c;
         line-height: 1.6;
         text-align: center;
@@ -576,6 +574,16 @@ form input[type="submit"]:hover {
         justify-content: center;
         justify-self: center;
     }
+    
+    ul {
+        list-style-type: none; 
+        padding: 0; 
+        margin: 0; 
+      }
+
+      footer ul li{
+        font-size: 1.1rem;
+      }
 
 }
 

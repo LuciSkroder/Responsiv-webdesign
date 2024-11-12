@@ -159,12 +159,6 @@ header #menu-bar ul li:hover > ul {
     text-decoration: none;     
 }
 
-footer {
-    background-color: #E7E0D6 ; /* Lys baggrund for footeren */
-    color: #4f402c;           /* brun tekstfarve */
-    text-align: center;     /* Centrerer tekst og indhold */
-
-}
 
 footer {
     background-color: #E7E0D6 ; /* Lys baggrund for footeren */
@@ -485,7 +479,6 @@ nav label img{
     justify-content: center;
     align-items: center;
 }
-
 
 .booking-form input[type="text"],
 .booking-form input[type="email"],
