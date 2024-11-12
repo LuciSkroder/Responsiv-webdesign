@@ -7,6 +7,9 @@
     <meta name="keywords" content="Brudekjole, Brudekjoler, Vintage brudekjoler, Køb af brudekjole, Køb af brudekjoler, Brudekjole trends, Brudekjole trends 2025, Brudekjoler med lange ærmer, Brudekjole med lange ærmer og blonder, Billige brudekjoler, Billig brudekjole">
     <link rel="icon" type="image/x-icon" href="../imgs/logo-endelig.webp" alt="Kennedys logo med firma navn og figur der ligner en kjole">
     <link rel="stylesheet" href="../css/materialer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <title>Kennedys</title>
 </head>
 <body>
@@ -88,36 +91,38 @@
         </figure>
     </main>
 
-    <footer>
-        <!-- Formular til at booke en tid -->
-        <form>
-            <h2 class="booktid">Book en tid</h2>
-            <label for="navn">Navn</label>
-            <input type="text" id="navn" name="navn">
-            <label for="e-mail">E-mail</label>
-            <input type="text" id="e-mail" name="e-mail">
-            <label for="telefon">Telefon nr</label>
-            <input type="text" id="telefon" name="telefon">
-            <input type="submit" value="Indsend">
-        </form>
-        <!-- Slut på formular -->
-    
-        <h2>Kontakt</h2>
-        <ul>
-            <li>Kennedys</li>
-            <li>Astervej 9</li>
-            <li>8471 Sabro</li>
-            <li>Danmark</li>
-            <li>CVR-nummer: 28934874</li>
-        </ul>
-        <ul>
-            <li>Telefon nr:</li>
-            <li>+4586495200</li>
-            <li>E-mail: </li>
-            <li>salonen@kennedys.dk</li>
-        </ul>
-        <img src="../imgs/logo.footer.webp" alt="Kennedys logo"> 
-        
+    <footer class="footer">
+        <section id=hop class="footer-section booking-form">
+            <h2>Book en tid</h2>
+            <form>
+                <label for="navn">Navn</label>
+                <input type="text" id="navn" name="navn">
+                <label for="e-mail">E-mail</label>
+                <input type="text" id="e-mail" name="e-mail">
+                <label for="telefon">Telefon nr</label>
+                <input type="text" id="telefon" name="telefon">
+                <input type="submit" value="Indsend">
+            </form>
+        </section>
+        <section class="footer-section contact-info">
+            <h2>Kontakt</h2>
+            <ul class="kontakt1">
+                <li>Kennedys</li>
+                <li>Astervej 9</li>
+                <li>8471 Sabro</li>
+                <li>Danmark</li>
+                <li>CVR-nummer: 28934874</li>
+            </ul>
+            <ul class="kontakt2">
+                <li>Telefon nr:</li>
+                <li>+4586495200</li>
+                <li>E-mail: </li>
+                <li>salonen@kennedys.dk</li>
+            </ul>
+        </section>
+        <section class="footer-section logo-section">
+            <img src="../imgs/logo.footer.webp" alt="Kennedys Logo" class="footer-logo">
+        </section>
     </footer>
 </body>
 </html>

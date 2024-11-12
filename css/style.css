@@ -2,6 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 /* Vores start CSS er designet til mobiler i portait mode */
 :root {
@@ -60,8 +63,9 @@ nav ul {
     left: 0;
     bottom: 0;
     color: var(--primary);
-    padding: 2%;
+    padding: 6%;
     text-shadow: 2px 2px 2px black;
+    
 }
 
 .bigphototext-2 {
@@ -69,7 +73,7 @@ nav ul {
     right: 0;
     bottom: 0;
     color: var(--primary);
-    padding: 2%;
+    padding: 6%;
     text-shadow: 2px 2px 2px black;
 }
 
@@ -420,14 +424,14 @@ form input[type="submit"]:hover {
     }
 
     .forside-titel {
-        font-size: 4.2rem;
+        font-size: 5.2rem;
         padding: 2%;
         margin-top: 2px;
         margin-bottom: -12px;
     }
 
     .bigphototext-1, .bigphototext-2 {
-        font-size: 2.2rem;
+        font-size: 4.2rem;
     }
 
     .forside-billeder {
