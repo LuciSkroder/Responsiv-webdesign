@@ -135,11 +135,54 @@ header #menu-bar ul li:hover > ul {
     width: 55px;
     height: 55px;
     border-radius: 50%;
-    background-color: red;
 }
 
-.infohover p, .infohover img {
+.infohover img {
+    overflow:hidden;
+    width: 100%;
+    object-fit: contain;
+}
 
+#satin {
+    position: absolute;
+    top: 13.8%;
+    left: 60%;
+}
+
+#silke {
+    position: absolute;
+    top: 39.7%;
+    left: 73.3%;
+}
+
+#blonde {
+    position: absolute;
+    top: 13.8%;
+    left: 20.5%;
+}
+
+#tyl {
+    position: absolute;
+    top:65.7% ;
+    left:17.7% ;
+}
+
+#organza {
+    position: absolute;
+    top: 65.7% ;
+    right: 17.7% ;
+}
+
+#crepe {
+    position: absolute;
+    top: 39.7% ;
+    left: 7.9% ;
+}
+
+
+
+.infohover p, .infohover input {
+display: none;
 }
 
 .matriale-billeder { 
