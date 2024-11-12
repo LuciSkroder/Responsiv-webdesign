@@ -438,6 +438,7 @@ form input[type="submit"]:hover {
     text-align: center;
     height: 20%;
     text-transform: uppercase;
+    }
 
     .footer {
         display: flex;
@@ -540,4 +541,3 @@ form input[type="submit"]:hover {
       }
 }
 
-}
