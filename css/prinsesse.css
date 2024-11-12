@@ -50,9 +50,6 @@ nav ul {
     overflow: hidden;
 }
 
-#bigphoto {
-    width: 100%;
-}
 
 nav label img {
     width: 15%;
@@ -90,9 +87,13 @@ header #menu-bar ul li:hover > ul {
     display: block;
 }
 
-.cover-photo img{
+.cover-photo-mobil img{
     width: 100%;
+}
 
+.cover-photo-computer img{
+    width: 100%;
+    display: none;
 }
 
 .prinsesse-titel{
@@ -294,6 +295,10 @@ form input[type="submit"]:hover {
         margin-bottom: 10%;
     }
 
+    .cover-photo-computer {
+        display: none;
+    }
+
 
 }
 
@@ -304,8 +309,7 @@ form input[type="submit"]:hover {
         grid-template-columns: repeat(4,33.33%);
         height: 100%; }
 
-    
-        
+
     .prinsesse-titel{ 
         font-size: 6rem;  
         padding: 3rem;
@@ -314,32 +318,26 @@ form input[type="submit"]:hover {
         font-size: 1.5rem; 
     }
     .overlay-text h2 {
-        font-size: 2.5rem; 
-        font-weight: bold; 
-        margin-top: 100%;
+        font-size: 3.5rem; 
     }
 
     .container2 .button-holder2 .dots {
-        display: inline-block;
         height: 25px;
         width: 25px;
-        border-radius: 3rem;
-        background-color: #000000;
-        margin: .4rem .3rem;
     }
 
     .container1 .button-holder1 .dots {
-        display: inline-block;
         height: 25px;
         width: 25px;
-        border-radius: 3rem;
-        background-color: #000000;
-        margin: .4rem .3rem;
     }
 
     .overlay-text {
         font-size: 20px;
         margin-bottom: 20%;
+    }
+
+    .cover-photo-computer {
+        display: none;
     }
 }
 
@@ -351,30 +349,15 @@ form input[type="submit"]:hover {
         height: 100%; }
 
         .prinsesse-titel{
-            background-color:rgba(0, 0, 0, 0.8) ;
-            position: absolute;
-            bottom: 0;  
-            width: 100%;  
-            color: var(--primary);
-            font-weight: bold;  
-            font-size: 6rem;  
+            font-size: 7rem;  
             padding: 3rem;
-            text-align: center;
         }
 
         nav {
-            position: absolute; /* Gør navbaren absolut i forhold til video-containeren */
-            top: 0;
-            left: 0;
-            width: 100%;
-            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent sort baggrund */
-            color: white;
-            padding: 2rem 0;
-            text-align: center;
+            padding: 2.5rem 0;
         }
 
         .container1 .button-holder1 .dots, .container2 .button-holder2 .dots  {
-            display: inline-block;
             height: 30px;
             width: 30px;
         }
@@ -387,16 +370,71 @@ form input[type="submit"]:hover {
         .overlay-text h2 {
             font-size: 35px; 
         }
+
+        .cover-photo-computer {
+            display: none;
+        }
 }
 
 @media only screen and (min-width: 1200px){
     .container1 .slider-holder1, .container2 .slider-holder2{
         display: grid;
         grid-template-columns: repeat(4,25%);
-        height: 100%; }
+        height: 100%; 
+    }
 
-        .container2 .button-holder2 .dots,.container1 .button-holder1 .dots  {
+     .container2 .button-holder2 .dots,.container1 .button-holder1 .dots  {
+       display: none;
+    }
+
+        .cover-photo-mobil img {
             display: none;
-           
+        }
+        
+        .cover-photo-computer, .cover-photo-computer img {
+           display: block;
+           width: 100%;
+        }
+
+        .prinsesse-titel{
+            font-size: 4rem;  
+            padding: 2rem;
+        }
+
+        .left-icon {
+            width: 20%;
+        }
+        
+        nav label img {
+            display: none;
+        }
+    
+        nav {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    
+        nav ul {
+            display: flex;
+        }
+    
+        nav ul li {
+            list-style: none;
+            padding: 0 8%;
+        }
+    
+        nav ul li a {
+            text-decoration: none;
+            color: var(--primary);
+            font-size: 2rem;
+        }
+    
+        nav ul li a:hover {
+            background:#4f402c
+        }
+    
+        nav ul li ul {
+            display: none;
         }
 }
