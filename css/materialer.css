@@ -111,18 +111,15 @@ header #menu-bar ul li:hover > ul {
 }
 
 .matrialertitel {
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        border: 5px;
-        background: rgba(0, 0, 0, 0.5); 
-        width: 100%;
-        height: 10%;
-        color: #fff; 
-        text-align: center;
-        font-size: 2.5rem;
-        font-weight: bold;
-        top: 94%;
+    background-color:rgba(0, 0, 0, 0.8) ;
+    position: absolute;
+    bottom: 0;  
+    width: 100%;  
+    color: var(--primary);
+    font-weight: bold;  
+    font-size: 30px;  
+    padding: 1.0rem;
+    text-align: center;
 
 }
 
@@ -221,14 +218,14 @@ display: none;
 
 .infohover p {
     display: none;
-    position: fixed;      /* Use fixed to center on the viewport */
+    position: fixed;      
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -72%); /* Center both vertically and horizontally */
+    transform: translate(-50%, -72%); 
     color: var(--primary);
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
-    width: 100%;          /* Adjust width as needed */
+    width: 100%;          
     padding: 14rem 1.3rem;
     text-align: center;
     font-size: 1rem;
@@ -239,22 +236,22 @@ display: none;
 
 .matriale-billeder { 
 display: grid;
-grid-template-columns: 1fr 1fr; /* Creates two equal-width columns */
+grid-template-columns: 1fr 1fr; 
 grid-template-rows: 1fr 1fr 1fr 1fr;
 
 }
 
 .matrialer {
     width: 100%;
-    object-fit: cover; /* Ensures images fit within their grid cells */
+    object-fit: cover; 
   }
 
 
 .billede-box {
     display: flex;
-    justify-content: center; /* Horizontally center content */
-    align-items: center; /* Vertically center content */
-    position: relative; /* Makes sure the image and text are inside the same container */
+    justify-content: center; 
+    align-items: center; 
+    position: relative; 
   }
 
   figure.billede-box {
@@ -280,8 +277,6 @@ teksten korrekt. Selvom der står det samme i dem.  */
     align-content: center;
     
   }
-
-  
 
 
 .bestseller {
@@ -398,26 +393,14 @@ form input[type="submit"]:hover {
         width: 100%; /* Ensure containers fill the screen width */
     }
 
-    .matrialertitel {
-        display: none;
-    }
+   
 }
 
 
 @media only screen and (min-width: 768px) and (orientation: portrait){ /* Til tablet */
     .matrialertitel {
-        position: absolute;
-        top: 109%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        border: 5px;
-        background: rgba(0, 0, 0, 0.5);
-        width: 100%;
-        height: 8%;
-        color: #fff;
-        text-align: center;
-        font-size: 2.5rem;
-        font-weight: bold;
+        font-size: 50px; 
+        padding: 2.0rem;
     }
 
     .cover-photo-computer {
