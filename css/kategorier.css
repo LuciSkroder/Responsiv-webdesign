@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 
 }
 /* Vores start CSS er designet til mobiler i portait mode */
 :root {
@@ -267,7 +268,7 @@ form input[type="submit"]:hover {
 }
 
 nav ul li a:hover {
-    background: var(--accent);
+    background: #4f402c;
 }
 
 .cover-photo-computer{
@@ -355,7 +356,7 @@ nav label img{
 
     nav ul li {
         list-style: none;
-        padding: 0 15%;
+        padding: 0 8%;
     }
 
     nav ul li a {
@@ -365,7 +366,7 @@ nav label img{
     }
 
     nav ul li a:hover {
-        background: var(--accent);
+        background: #4f402c;
     }
 
     nav ul li ul {
