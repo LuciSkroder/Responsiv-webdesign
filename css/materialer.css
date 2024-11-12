@@ -14,9 +14,9 @@
     --shadow: #4f402c;
 }
 
-.body {
-    background-color: #E7E0D6;
-}
+body {
+    background-color: #E7E0D6
+} 
 
 header {
     position: sticky;
@@ -118,6 +118,7 @@ header #menu-bar ul li:hover > ul {
 
 .infographic {
     width: 100%;
+    
 }
 
 .matriale-billeder { 
@@ -284,6 +285,7 @@ form input[type="submit"]:hover {
         width: 8%;
     }
 
+
     nav label img {
         width: 9%;
         margin-top: 2%;
@@ -294,7 +296,11 @@ form input[type="submit"]:hover {
     }
 
     #bigphoto {
-       
+       width: 100%;
+    }
+
+    .infographictext {
+        position: relative;
     }
 
 }
