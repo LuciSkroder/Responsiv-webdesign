@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Cinzel", serif;
-    font-optical-sizing: auto;
     font-style: normal;
 }
 /* Vores start CSS er designet til mobiler i portait mode */
@@ -215,10 +214,8 @@ main section section article {
 }
 
 @keyframes fling-minislide {
-    0%, 9% { opcaity: 0.5; }
     10%, 45% { opacity: 1; }
     46%, 89% { opacity: 0; }
-    90%, 100% { opcaity:0.5; }
 }
 .slide article:nth-child(1){
     animation-delay:0s;
