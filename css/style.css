@@ -168,7 +168,7 @@ header #menu-bar ul li:hover > ul {
     color: #E7E0D6;
     text-shadow: 2px 2px 2px black;
     font-size: 0.8rem;
-    background: url(../imgs/anmeldelses-billede.webp), rgba(0, 0, 0, 0.7);
+    background: url(../imgs/anmeldelser-nyt-billede.webp), rgba(0, 0, 0, 0.7);
     background-size: 200% 100%;
     background-position: 50% 50%;
     text-align: center;
@@ -484,7 +484,7 @@ form input[type="submit"]:hover {
         flex-direction: row;
         object-fit: contain;
         height: 50vh;
-        background: url(../imgs/anmeldelses-billede-pc.webp), rgba(0, 0, 0, 0.7);
+        background: url(../imgs/anmeldelser-nyt-billede.webp), rgba(0, 0, 0, 0.7);
         background-size: 100% 100%;
     }
 
