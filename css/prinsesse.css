@@ -409,6 +409,7 @@ form input[type="submit"]:hover {
 }
 
 @media only screen and (min-width: 1200px){
+    
     .container1 .slider-holder1, .container2 .slider-holder2{
         display: grid;
         grid-template-columns: repeat(4,25%);

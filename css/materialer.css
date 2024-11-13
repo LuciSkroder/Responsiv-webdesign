@@ -443,7 +443,7 @@ form input[type="submit"]:hover {
 
 @media only screen and (min-width: 1200px){ /* til pc */
     .left-icon {
-        width: 15%;
+        width: 20%;
     }
     
     nav label img {
