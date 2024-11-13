@@ -388,12 +388,12 @@ nav label img{
     .kategorier {
         position: relative;
         overflow: hidden;
+        object-fit: cover;
     }
     
     .kategorier img {
         width: 100%;
         height: auto;
-        object-fit: cover;
     }
 
 
