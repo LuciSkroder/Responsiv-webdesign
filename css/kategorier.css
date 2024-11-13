@@ -155,8 +155,9 @@ header #menu-bar ul li:hover > ul {
     color: white;  
     font-weight: bold;  
     text-align: center;  
-    font-size: 25px;  
+    font-size: 20px;  
     padding: 10px 0;
+    text-shadow: 2px 2px 2px black;
 }
 
 .overlay-text a {
@@ -287,6 +288,7 @@ nav ul li a:hover {
 .overlay-text{
     font-size: 35px;  
     padding: 10px 0;
+    text-shadow: 2px 2px 2px black;
 
 }
 nav label img{
