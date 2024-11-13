@@ -738,12 +738,17 @@ form input[type="submit"]:hover {
     }
 
 .infohover img {
-    width: 330%;
+    width: 380%;
 }
 
 #organza {
     top: 66.6%;
     right: 28% ;
+}
+
+.infohover p {
+    padding-top: 30rem;
+    padding-bottom: 30rem;
 }
 
 }
