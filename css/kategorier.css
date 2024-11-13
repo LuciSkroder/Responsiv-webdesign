@@ -407,9 +407,14 @@ nav label img{
     display: none;
 }
 
-.overlay-text a {
-    color: inherit;            
-    text-decoration: none;     
+.overlay-text .link-text {
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.overlay-text .link-text:hover {
+    color: #211b12;
+    transform: scale(1.5);
 }
 
 .footer {
