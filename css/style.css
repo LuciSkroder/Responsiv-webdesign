@@ -317,6 +317,16 @@ form input[type="submit"]:hover {
         margin-top: 2%;
     }
 
+    .review-tekst{
+        padding: 5% 5%;
+        font-size: 1.2rem;
+    }
+
+    .review-titel {
+        font-size: 2rem;
+    }
+
+
 }
 
 @media only screen and (min-width: 768px) and (orientation: portrait){ /* Til ipad der står op, aka portrait mode */
@@ -334,16 +344,21 @@ form input[type="submit"]:hover {
     }
 
     .review-tekst{
-        padding: 30% 15%;
+        padding: 0% 15%;
 
     }
+
+    .review-titel {
+        font-size: 2rem;
+    }
+
 
     .bigphototext-1, .bigphototext-2, .bestname, .review-titel {
         font-size: 2.5rem;
     }
 
     .mobil-tekst, .review-tekst, form label, form input[type="submit"] {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
     }
 
     form {
@@ -462,6 +477,7 @@ form input[type="submit"]:hover {
 
     .review-tekst {
         font-size: 1.5rem;
+        padding: 0% 5%;
     }
 
     .reviews {
