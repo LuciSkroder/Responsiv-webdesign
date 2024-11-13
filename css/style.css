@@ -336,6 +336,11 @@ form input[type="submit"]:hover {
         font-size: 3.5rem;
     }
 
+    .review-tekst{
+        padding: 30% 15%;
+
+    }
+
     .bigphototext-1, .bigphototext-2, .bestname, .review-titel {
         font-size: 2.5rem;
     }
@@ -405,14 +410,13 @@ form input[type="submit"]:hover {
 
     nav ul li {
         list-style: none;
-        padding: 0 5%;
+        padding: 0 3%;
     }
 
     nav ul li a {
         text-decoration: none;
         color: var(--primary);
         font-size: 2rem;
-        padding: 18px;
     }
 
     nav ul li a:hover {
