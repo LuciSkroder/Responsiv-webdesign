@@ -266,8 +266,9 @@ teksten korrekt. Selvom der står det samme i dem.  */
 
 .overlay-text {
     color: white;
-    font-size: 1.5rem;
+    font-size: 150%;
     font-weight: bold;
+    padding: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     text-align: center;
     position: absolute;
@@ -277,6 +278,7 @@ teksten korrekt. Selvom der står det samme i dem.  */
     align-content: center;
     
   }
+
 
 
 .bestseller {
@@ -407,6 +409,11 @@ form input[type="submit"]:hover {
         display: none;
     }
 
+    .overlay-text{
+        font-size: 300%;
+
+    }
+
 } 
 
 @media only screen and (min-width: 1024px) and (orientation: landscape){ /* tablet landscape */
@@ -414,20 +421,6 @@ form input[type="submit"]:hover {
         display: block;
     }
     .matrialertitel {
-        /* position: absolute;
-        top: 197%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        border: 5px;
-        background: rgba(0, 0, 0, 0.5);
-        width: 100%;
-        height: 9%;
-        color: #fff;
-        text-align: center;
-        padding: 1rem;
-        font-size: 2.5rem;
-        font-weight: bold; */
-
     background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
     top: 96.1%;
@@ -435,8 +428,12 @@ form input[type="submit"]:hover {
     font-weight: bold;
     font-size: 5rem;
     text-align: center;
-    height: auto%;
+    height: auto;
     text-transform: uppercase;
+    }
+
+    .overlay-text{
+        font-size: 300%;
     }
 
 
@@ -499,34 +496,7 @@ form input[type="submit"]:hover {
         height: 80%;
     }
 
-    .matrialertitel {
-        /* position: absolute;
-        top: 95%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        border: 5px;
-        background: rgba(0, 0, 0, 0.5);
-        width: 100%;
-        height: 10%;
-        color: #fff;
-        text-align: center;
-        padding: 0.8rem;
-        font-size: 2.5rem;
-        font-weight: bold;
-    } */
-    /* background-color: rgba(0, 0, 0, 0.8);
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    width: 100%;
-    color: var(--primary);
-    font-weight: bold;
-    font-size: 5rem;
-    padding: 2rem;
-    text-align: center;
-    height: 20%;
-    text-transform: uppercase; */
-    
+    .matrialertitel { 
     background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
     top: 90%;
@@ -536,6 +506,10 @@ form input[type="submit"]:hover {
     text-align: center;
     height: 20%;
     text-transform: uppercase;
+    }
+
+    .overlay-text{
+        font-size: 300%;
     }
 
     .footer {
@@ -637,5 +611,7 @@ form input[type="submit"]:hover {
         padding: 0; 
         margin: 0; 
       }
+}
+
 }
 
