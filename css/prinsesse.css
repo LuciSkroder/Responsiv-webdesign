@@ -158,6 +158,8 @@ body {
     border-radius: 3rem;
     background-color: #000000;
     margin: .4rem .3rem;
+    border: 1px solid;
+    border-color: #E7E0D6;
 }
 .container2 {
     position: relative;
@@ -203,6 +205,8 @@ body {
     border-radius: 3rem;
     background-color: #000000;
     margin: .4rem .3rem;
+    border: 1px solid;
+    border-color: #E7E0D6;
 }
 .overlay-text{
     width: 100%;
