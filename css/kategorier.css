@@ -159,12 +159,10 @@ header #menu-bar ul li:hover > ul {
     text-shadow: 2px 2px 2px black;
 }
 
-
 .overlay-text a {
     color: inherit;            
     text-decoration: none;     
 }
-
 
 footer {
     background-color: #E7E0D6 ; /* Lys baggrund for footeren */
@@ -214,7 +212,6 @@ footer h2 {
     padding-bottom: 1rem;
 }
 
-
 form input[type="submit"]:hover {
     background-color: #8F7858; /* Mørkere brun, når knappen hoveres */
 }
@@ -232,7 +229,6 @@ form input[type="submit"]:hover {
     background-color: white;  
 }
 
-
 .submit-button {
     background-color: #4f402c;
     color: white;
@@ -241,8 +237,6 @@ form input[type="submit"]:hover {
     cursor: pointer;
     border-radius: 4px; 
 }
-
-
 
 @media only screen and (min-width: 540px) and (orientation: landscape){ /* Til mobil der ligger ned, aka landscape mode */
     
@@ -291,6 +285,7 @@ nav ul li a:hover {
     text-shadow: 2px 2px 2px black;
 
 }
+
 nav label img{
     margin-top: 1%
 
@@ -307,7 +302,6 @@ nav label img{
     font-weight: bold;
     text-align: center;
 }
-
 
 }
 
@@ -340,7 +334,6 @@ nav label img{
 }
 
 @media only screen and (min-width: 1200px){
-
 
     .left-icon {
         width: 20%;
@@ -396,125 +389,122 @@ nav label img{
         height: auto;
     }
 
-
-.cover-photo-computer{
-    display: block;
+    .cover-photo-computer{
+        display: block;
+        }
+        
+    .cover-photo-mobil-tablet img{
+        display: none;
     }
-    
-.cover-photo-mobil-tablet img{
-    display: none;
-}
 
-.overlay-text .link-text {
-    text-decoration: none;
-    transition: color 0.3s ease, transform 0.3s ease;
-}
+    .overlay-text .link-text {
+        text-decoration: none;
+        transition: color 0.3s ease, transform 0.3s ease;
+    }
 
-.overlay-text .link-text:hover {
-    color: #211b12;
-    transform: scale(1.5);
-}
+    .overlay-text .link-text:hover {
+        color: #211b12;
+        transform: scale(1.5);
+    }
 
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    background-color: #E7E0D6; 
-    padding: 20px;
-    font-family:'Times New Roman', Times, serif
-}
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        background-color: #E7E0D6; 
+        padding: 20px;
+        font-family:'Times New Roman', Times, serif
+    }
 
-.footer-section {
-    flex: 1;
-    margin: 0 20px; 
-}
+    .footer-section {
+        flex: 1;
+        margin: 0 20px; 
+    }
 
-.booking-form, .contact-info, .logo-section {
-    text-align: left;
-}
+    .booking-form, .contact-info, .logo-section {
+        text-align: left;
+    }
 
-.booking-form h2 {
-    font-size: 45px;
-    color: #4f402c; 
-    margin-bottom: 15px;
-    max-width: 400%;
-    text-align: center;
-}
+    .booking-form h2 {
+        font-size: 45px;
+        color: #4f402c; 
+        margin-bottom: 15px;
+        max-width: 400%;
+        text-align: center;
+    }
 
-.booking-form form label {
-    display: flex;
-    margin: 2px 0 5px;
-    font-size: 14px;
-    color: #4f402c;
-}
+    .booking-form form label {
+        display: flex;
+        margin: 2px 0 5px;
+        font-size: 14px;
+        color: #4f402c;
+    }
 
-.booking-form input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #E7E0D6;
-    font-size: 14px;
-}
+    .booking-form input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #E7E0D6;
+        font-size: 14px;
+    }
 
-.submit-button {
-    background-color: #4f402c;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px; 
-}
+    .submit-button {
+        background-color: #4f402c;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 4px; 
+    }
 
-.submit-button:hover {
-    background-color: #4f402c;
-}
+    .submit-button:hover {
+        background-color: #4f402c;
+    }
 
+    .contact-info h2 {
+        font-size: 45px;
+        color: #4f402c;
+        margin-bottom: 15px;
+        text-align: center;
+    }
 
-.contact-info h2 {
-    font-size: 45px;
-    color: #4f402c;
-    margin-bottom: 15px;
-    text-align: center;
-}
+    .kontakt1, .kontakt2 {
+        font-size: 18px;
+        color: #4f402c;
+        line-height: 1.6;
+        text-align: center;
+    }
 
-.kontakt1, .kontakt2 {
-    font-size: 18px;
-    color: #4f402c;
-    line-height: 1.6;
-    text-align: center;
-}
+    .logo-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .booking-form input[type="text"],
+    .booking-form input[type="email"],
+    .booking-form input[type="tel"] {
+        width: 100%;               
+        padding: 8px;             
+        margin-bottom: 10px;      
+        border: 1px solid #4f402c; /* mørk linje */
+        border-radius: 4px;        /* runde hjørner */
+        box-sizing: border-box;   
+        font-size: 14px;           
+        background-color: white;  
+    }
 
-.logo-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .footer-logo {
+        width: 50%; 
+        justify-content: center;
+        justify-self: center;
+    }
 
-.booking-form input[type="text"],
-.booking-form input[type="email"],
-.booking-form input[type="tel"] {
-    width: 100%;               
-    padding: 8px;             
-    margin-bottom: 10px;      
-    border: 1px solid #4f402c; /* mørk linje */
-    border-radius: 4px;        /* runde hjørner */
-    box-sizing: border-box;   
-    font-size: 14px;           
-    background-color: white;  
-}
-
-.footer-logo {
-    width: 50%; 
-    justify-content: center;
-    justify-self: center;
-}
-
-ul {
-    list-style-type: none; 
-    padding: 0; 
-    margin: 0; 
-  }
+    ul {
+        list-style-type: none; 
+        padding: 0; 
+        margin: 0; 
+    }
 
 }
 

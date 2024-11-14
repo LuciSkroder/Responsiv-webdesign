@@ -228,8 +228,6 @@ main section section article {
     margin-bottom: 4%;
 }
 
-
-
 footer {
     background-color: #E7E0D6 ; /* Lys baggrund for footeren */
     color: #4f402c;           /* brun tekstfarve */
@@ -278,7 +276,6 @@ footer h2 {
     padding-bottom: 1rem;
 }
 
-
 form input[type="submit"]:hover {
     background-color: #8F7858; /* Mørkere brun, når knappen hoveres */
 }
@@ -295,7 +292,6 @@ form input[type="submit"]:hover {
     font-size: 14px;           
     background-color: white;  
 }
-
 
 .submit-button {
     background-color: #4f402c;
@@ -330,6 +326,7 @@ form input[type="submit"]:hover {
 }
 
 @media only screen and (min-width: 768px) and (orientation: portrait){ /* Til ipad der står op, aka portrait mode */
+    
     .left-icon {
         width: 12%;
     }
@@ -555,7 +552,6 @@ form input[type="submit"]:hover {
         background-color: #4f402c;
     }
     
-    
     .contact-info h2 {
         font-size: 45px;
         color: #4f402c;
@@ -576,7 +572,6 @@ form input[type="submit"]:hover {
         justify-content: center;
         align-items: center;
     }
-    
     
     .booking-form input[type="text"],
     .booking-form input[type="email"],

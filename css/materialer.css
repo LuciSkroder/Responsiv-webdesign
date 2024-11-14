@@ -28,7 +28,6 @@ header {
     position: sticky;
 }
 
-
 header a {
     display: flex;
 }
@@ -61,13 +60,9 @@ nav ul {
     overflow: hidden;
 }
 
-
-
 #bigphoto {
     width: 100%;
 }
-
-
 
 nav label img {
     width: 15%;
@@ -121,8 +116,6 @@ header #menu-bar ul li:hover > ul {
     text-align: center;
 
 }
-
-
 
 .infographic {
     width: 100%;
@@ -298,12 +291,10 @@ teksten korrekt. Selvom der står det samme i dem.  */
     
   }
 
-
 .bestseller {
     width: 100%;
     /* border: 1px solid var(--primary); */
 }
-
 
 footer {
     background-color: #E7E0D6 ; /* Lys baggrund for footeren */
@@ -371,7 +362,6 @@ form input[type="submit"]:hover {
     background-color: white;  
 }
 
-
 .submit-button {
     background-color: #4f402c;
     color: white;
@@ -387,7 +377,6 @@ form input[type="submit"]:hover {
         width: 8%;
     }
 
-
     nav label img {
         width: 9%;
         margin-top: 2%;
@@ -396,18 +385,6 @@ form input[type="submit"]:hover {
     .cover-photo-computer {
         display: none;
     }
-
-    /* .cover {
-        height: 40vh;
-    }
-
-    #bigphoto {
-       width: 100%;
-    }
-
-    .infographictext {
-        position: relative;
-    } */
 
     .cover, .infographictext {
         width: 100%; /* Ensure containers fill the screen width */
@@ -422,12 +399,10 @@ form input[type="submit"]:hover {
         left: 60.3%;
     }
 
-
     #blonde {
         top: 14.2%;
         left: 20.1%;
     }
-
 
     #organza {
         top: 66%;
@@ -437,7 +412,6 @@ form input[type="submit"]:hover {
     .overlay-text1 {
         font-size: 1.2rem;
     }
-  
 
     .infohover p {
         padding-left: 1.4rem;
@@ -478,7 +452,6 @@ form input[type="submit"]:hover {
         left: 7.6%;
     }
 
-
     .overlay-text1 {
         font-size: 1.5rem;
     }
@@ -489,15 +462,13 @@ form input[type="submit"]:hover {
         padding-bottom: 27rem;
     }
 
-    
-
-
 } 
 
 @media only screen and (min-width: 1024px) and (orientation: landscape){ /* tablet landscape */
     .matrialertitel {
         display: block;
     }
+
     .matrialertitel {
     background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
@@ -515,49 +486,49 @@ form input[type="submit"]:hover {
     }
 
 
-.cover-photo-computer {
-    display: none;
-}
+    .cover-photo-computer {
+        display: none;
+    }
 
-.overlay-text1 {
-    font-size: 2rem;
-}
+    .overlay-text1 {
+        font-size: 2rem;
+    }
 
-.infohover img {
-    width: 280%;
-}
+    .infohover img {
+        width: 280%;
+    }
 
-#satin {
-    left: 60.5%;
-    top:14.7% ;
-}
+    #satin {
+        left: 60.5%;
+        top:14.7% ;
+    }
 
-#silke {
-    top: 40.5%;
-}
+    #silke {
+        top: 40.5%;
+    }
 
-#organza {
-    top: 66.6%;
-    right: 27.1% ;
-}
+    #organza {
+        top: 66.6%;
+        right: 27.1% ;
+    }
 
-#blonde {
-    top: 14.8%;
-    left: 20.4%;
-}
+    #blonde {
+        top: 14.8%;
+        left: 20.4%;
+    }
 
-#crepe {
-    top: 40.3%;
-}
+    #crepe {
+        top: 40.3%;
+    }
 
-#tyl {
-    top: 67% ;
-    left: 17.9%;
-}
+    #tyl {
+        top: 67% ;
+        left: 17.9%;
+    }
 
-.infohover p {
-    font-size: 2.2rem;
-}
+    .infohover p {
+        font-size: 2.2rem;
+    }
 
 }
 
@@ -685,7 +656,6 @@ form input[type="submit"]:hover {
         background-color: #4f402c;
     }
     
-    
     .contact-info h2 {
         font-size: 45px;
         color: #4f402c;
@@ -699,7 +669,6 @@ form input[type="submit"]:hover {
         line-height: 1.6;
         text-align: center;
     }
-    
     
     .logo-section {
         display: flex;
@@ -736,19 +705,19 @@ form input[type="submit"]:hover {
         font-size: 2.2rem;
     }
 
-.infohover img {
-    width: 380%;
-}
+    .infohover img {
+        width: 380%;
+    }
 
-#organza {
-    top: 66.6%;
-    right: 28% ;
-}
+    #organza {
+        top: 66.6%;
+        right: 28% ;
+    }
 
-.infohover p {
-    padding-top: 30rem;
-    padding-bottom: 30rem;
-}
+    .infohover p {
+        padding-top: 30rem;
+        padding-bottom: 30rem;
+    }
 
 }
 

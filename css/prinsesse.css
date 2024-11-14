@@ -52,7 +52,6 @@ nav ul {
     overflow: hidden;
 }
 
-
 nav label img {
     width: 15%;
     height: auto;
@@ -117,6 +116,7 @@ body {
 .container1 {
     position: relative;
 }
+
 .container1 .wrapper1{
     width: 100%;
     height: 100%;
@@ -125,32 +125,39 @@ body {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 .container1 .slider-holder1{
     display: grid;
     grid-template-columns: repeat(4, 50%);
     height: 100%;
 }
+
 .container1 #slider-image1 {
     background-image: url(../imgs/prisesse-billede1.webp);
     background-size: cover;
 }
+
 .container1 #slider-image2 {
     background-image: url(../imgs/prinsesse-billede2.webp);
     background-size: cover;
 }
+
 .container1 #slider-image3 {
     background-image: url(../imgs/prinsesse-billede3.webp);
     background-size: cover;
 }
+
 .container1 #slider-image4 {
     background-image: url(../imgs/prinsesse-billede4.webp);
     background-size: cover;
 }
+
 .container1 .button-holder1{
     position: absolute;
     bottom: 0%;
     left: 50%;
 }
+
 .container1 .button-holder1 .dots {
     display: inline-block;
     height: 15px;
@@ -161,9 +168,11 @@ body {
     border: 1px solid;
     border-color: #E7E0D6;
 }
+
 .container2 {
     position: relative;
 }
+
 .container2 .wrapper2 {
     width: 100%;
     height: 100%;
@@ -172,32 +181,39 @@ body {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 .container2 .slider-holder2{
     display: grid;
     grid-template-columns: repeat(4, 50%);
     height: 100%;
 }
+
 .container2 #slider-image5 {
     background-image: url(../imgs/prinsesse-billede5.webp);
     background-size: cover;
 }
+
 .container2 #slider-image6 {
     background-image: url(../imgs/prinsesse-billede6.webp);
     background-size: cover;
 }
+
 .container2 #slider-image7 {
     background-image: url(../imgs/prinsesse-billede7.webp);
     background-size: cover;
 }
+
 .container2 #slider-image8 {
     background-image: url(../imgs/prinsesse-billede8.webp);
     background-size: cover;
 }
+
 .container2 .button-holder2{
     position: absolute;
     bottom: 0%;
     left: 50%;
 }
+
 .container2 .button-holder2 .dots {
     display: inline-block;
     height: 15px;
@@ -208,6 +224,7 @@ body {
     border: 1px solid;
     border-color: #E7E0D6;
 }
+
 .overlay-text{
     width: 100%;
     color:#E7E0D6;   
@@ -216,12 +233,12 @@ body {
     text-shadow: 2px 2px 2px black;
     margin-bottom: 12%;
 }
+
 .overlay-text h2 {
     font-size: 26px; 
     font-weight: bold; 
     margin-top: 100%;
 }
-
 
 footer {
     background-color: #E7E0D6 ; /* Lys baggrund for footeren */
@@ -271,7 +288,6 @@ footer h2 {
     padding-bottom: 1rem;
 }
 
-
 form input[type="submit"]:hover {
     background-color: #8F7858; /* Mørkere brun, når knappen hoveres */
 }
@@ -289,7 +305,6 @@ form input[type="submit"]:hover {
     background-color: white;  
 }
 
-
 .submit-button {
     background-color: #4f402c;
     color: white;
@@ -298,6 +313,7 @@ form input[type="submit"]:hover {
     cursor: pointer;
     border-radius: 4px; 
 }
+
 @media only screen and (min-width: 540px) and (orientation: landscape){ /* Til mobil der ligger ned, aka landscape mode */
     
     .left-icon {
@@ -333,14 +349,15 @@ form input[type="submit"]:hover {
         grid-template-columns: repeat(4,33.33%);
         height: 100%; }
 
-
     .prinsesse-titel{ 
         font-size: 6rem;  
         padding: 3rem;
     }
+
     .overlay-text{
         font-size: 1.5rem; 
     }
+    
     .overlay-text h2 {
         font-size: 3.5rem; 
     }
@@ -372,10 +389,10 @@ form input[type="submit"]:hover {
 
 @media only screen and (min-width: 1024px) and (orientation: landscape){
    
-    .container1 .slider-holder1, .container2 .slider-holder2{
-        display: grid;
-        grid-template-columns: repeat(4,33.33%);
-        height: 100%; }
+        .container1 .slider-holder1, .container2 .slider-holder2{
+            display: grid;
+            grid-template-columns: repeat(4,33.33%);
+            height: 100%; }
 
         .prinsesse-titel{
             font-size: 7rem;  
@@ -413,15 +430,15 @@ form input[type="submit"]:hover {
 
 @media only screen and (min-width: 1200px){
     
-    .container1 .slider-holder1, .container2 .slider-holder2{
-        display: grid;
-        grid-template-columns: repeat(4,25%);
-        height: 100%; 
-    }
+        .container1 .slider-holder1, .container2 .slider-holder2{
+            display: grid;
+            grid-template-columns: repeat(4,25%);
+            height: 100%; 
+        }
 
-     .container2 .button-holder2 .dots,.container1 .button-holder1 .dots  {
-       display: none;
-    }
+        .container2 .button-holder2 .dots,.container1 .button-holder1 .dots  {
+        display: none;
+        }
 
         .cover-photo-mobil img {
             display: none;
@@ -528,7 +545,6 @@ form input[type="submit"]:hover {
             background-color: #4f402c;
         }
         
-        
         .contact-info h2 {
             font-size: 45px;
             color: #4f402c;
@@ -542,7 +558,6 @@ form input[type="submit"]:hover {
             line-height: 1.6;
             text-align: center;
         }
-        
         
         .logo-section {
             display: flex;
