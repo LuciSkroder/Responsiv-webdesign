@@ -224,15 +224,12 @@ display: none;
     text-align: center;
     font-size: 1rem;
     z-index: 10;
-    
-
 }
 
 .matriale-billeder { 
 display: grid;
 grid-template-columns: 1fr 1fr; 
 grid-template-rows: 1fr 1fr 1fr 1fr;
-
 }
 
 .matrialer {
