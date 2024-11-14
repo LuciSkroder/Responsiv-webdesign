@@ -238,7 +238,7 @@ form input[type="submit"]:hover {
     border-radius: 4px; 
 }
 
-@media only screen and (min-width: 540px) and (orientation: landscape){ /* Til mobil der ligger ned, aka landscape mode */
+@media only screen and (min-width: 540px) { 
     
     .left-icon {
         width: 8%;
@@ -305,7 +305,7 @@ nav label img{
 
 }
 
-@media only screen and (min-width: 1024px) and (orientation: landscape){
+@media only screen and (min-width: 1024px) {
 
     .cover-photo-mobil-tablet img{
         width: 100%;

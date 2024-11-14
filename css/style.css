@@ -53,29 +53,6 @@ nav ul {
     margin-bottom: -2%;
 }
 
-#bigphoto {
-    width: 100%;
-}
-
-.bigphototext-1 {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    color: var(--primary);
-    padding: 6%;
-    text-shadow: 2px 2px 2px black;
-    
-}
-
-.bigphototext-2 {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    color: var(--primary);
-    padding: 6%;
-    text-shadow: 2px 2px 2px black;
-}
-
 nav label img {
     width: 15%;
     height: auto;
@@ -110,6 +87,30 @@ nav label img {
 header #menu-bar ul li:focus-within > ul,
 header #menu-bar ul li:hover > ul {
     display: block;
+}
+
+
+#bigphoto {
+    width: 100%;
+}
+
+.bigphototext-1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: var(--primary);
+    padding: 6%;
+    text-shadow: 2px 2px 2px black;
+    
+}
+
+.bigphototext-2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: var(--primary);
+    padding: 6%;
+    text-shadow: 2px 2px 2px black;
 }
 
 .forside-titel {
@@ -302,7 +303,7 @@ form input[type="submit"]:hover {
     border-radius: 4px; 
 }
 
-@media only screen and (min-width: 540px) and (orientation: landscape){ /* Til mobil der ligger ned, aka landscape mode */
+@media only screen and (min-width: 540px) { 
     
     .left-icon {
         width: 8%;
@@ -373,7 +374,7 @@ form input[type="submit"]:hover {
     
 }
 
-@media only screen and (min-width: 1024px) and (orientation: landscape){ /* Til ipad der ligger ned, aka landscape mode */
+@media only screen and (min-width: 1024px) { 
     
     nav label img {
         margin-top: 1%;
