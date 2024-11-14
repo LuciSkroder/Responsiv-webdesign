@@ -132,6 +132,7 @@ header #menu-bar ul li:hover > ul {
     overflow:hidden;
     width: 100%;
     object-fit: contain;
+    cursor: pointer;
 }
 
 #satin {
